@@ -1,6 +1,6 @@
 import "./register.scss";
 import { Link } from "react-router-dom";
-function Register() {
+const Register = () => {
   return (
     <>
       <div className="register">
@@ -32,6 +32,6 @@ function Register() {
       </div>
     </>
   );
-}
+};
 
 export default Register;
